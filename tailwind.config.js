@@ -1,5 +1,4 @@
-const colors = require('tailwindcss/colors')
-const { screens } = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   darkMode: 'class', // or 'media' or 'class'
@@ -75,10 +74,6 @@ module.exports = {
       padding: {
         '2px': '2px',
       },
-    },
-    screens: {
-      xs: '480px',
-      ...screens,
     },
   },
   purge: {

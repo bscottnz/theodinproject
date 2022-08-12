@@ -4,18 +4,18 @@
       <h2 class="text-2xl font-bold mb-9">How it works</h2>
       <p class="pt-4">This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order.</p>
     </div>
-  </div> <!-- /.how-it-works-title -->
+  </div>
   <div class="flex flex-col md:flex-row max-w-5xl mx-auto text-center">
 
     <% how_it_works_tiles.each do |tile| %>
     <div class="p-5 flex-1">
-      <%= image_tag tile[:image], class: 'h-20 xs:h-32 md:h-40 inline', alt: 'how-it-works illustration' %>
+      <%= image_tag tile[:image], class: 'h-20 sm:h-32 md:h-40 inline', alt: 'how-it-works illustration' %>
       <h4 class='font-bold text-xl mt-8 mb-4'><%= tile[:subtitle] %></h4>
-      <div class="px-8 xs:px-16 md:px-0">
+      <div class="px-8 sm:px-16 md:px-0">
         <p><%= tile[:description] %></p>
       </div>
     </div>
     <% end %>
 
-  </div> <!-- /.how-it-works-tiles -->
-</div> <!-- /.how-it-works -->
+  </div>
+</div>

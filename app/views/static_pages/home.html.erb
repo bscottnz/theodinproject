@@ -1,6 +1,6 @@
-<div id="home-page" class="tmp-container-spacer">
-  <div class="hero gradient">
-    <header class="pb-14">
+<div id="home-page">
+  <div class="w-full text-center gradient odin-dark-bg">
+    <header class="pb-14 page-container">
       <h1 class="text-4xl font-light text-gold-500 mx-auto pb-4"> Your Career in Web Development Starts Here </h1>
       <div class="text-gray-600 pb-16">
         <p class="mb-4">Our full stack curriculum is free and supported by a passionate open source community.</p>
@@ -11,7 +11,7 @@
 
       <%= link_to 'View Full Curriculum', paths_url, class: 'button button--primary' %>
     </header>
-    <%= image_tag 'home-isometric.svg', class: '', alt: 'home-page-banner' %>
+    <%= image_tag 'home-isometric.svg', alt: 'home-page-banner' %>
   </div>
 
   <%= render 'static_pages/home/how_it_works' %>
